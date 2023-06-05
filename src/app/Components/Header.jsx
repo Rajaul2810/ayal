@@ -1,11 +1,12 @@
 "use client"
 import Link from 'next/link'
 import React from 'react'
+// import bg from '../../../public/bg2'
 
 const Header = () => {
     return (
         <section className=' h-screen w-full'>
-            <div className=" grid place-content-center bg-cover bg-center bg-[url('../../public/bg2.jpg')] h-full bg-opacity-10">
+            <div className=" grid place-content-center bg-cover bg-center bg h-full bg-opacity-10" >
                 <div className=' -pt-60 p-5'>
                     <h1 className=' text-green-600 text-7xl font-extrabold'>AyAl Corp Limited</h1>
                     <p className=' pt-5 pb-5 '>is the One-stop solution for your Technology, Security, Mailing and Digital marketing needs.</p>

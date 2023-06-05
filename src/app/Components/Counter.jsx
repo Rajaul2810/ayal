@@ -6,7 +6,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 const Counter = () => {
     const [counterOn, setCounterOn] = useState(false)
     return (
-        <div className='mt-20 pt-12 pb-12 bg-gradient-to-r from-gray-800 to-gray-900'>
+        <div className='mt-20 pt-12 pb-12 bg-gradient-to-r from-gray-800 to-gray-900 h-48'>
             <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
                 <div className=' flex justify-center  px-4 sm:px-4 md:px-12 mt-12'>
                     <div className=' gap-5 w-full md:w-3/4  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4'>

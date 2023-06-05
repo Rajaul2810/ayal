@@ -1,8 +1,8 @@
-import Header from '@/Components/Header'
+import Header from '@/app/Components/Header'
 import Services from './services/page'
 import WhyUs from './whyUs/page'
 import Contact from './contact/page'
-import Counter from '@/Components/Counter'
+import Counter from '@/app/Components/Counter'
 
 export default function Home() {
   return (
