@@ -57,11 +57,9 @@ const services = [
 const Services = () => {
     return (
         <div className='pt-12 pb-12 bg-gray-50'>
-            <h1 className=' text-center text-4xl font-extrabold'>Our Services</h1>
-            <div className=' flex justify-center'>
-                <div className=' bg-gradient-to-r from-green-500 to-lime-400 h-1 w-28 rounded-md shadow-green-500/50 shadow-md '></div>
-            </div>
-            <div className=' flex justify-center  px-4 sm:px-4 md:px-6 mt-12'>
+            <h1 className=' ps-16 text-6xl font-extrabold'>OUR <br /> SERVICES</h1>
+            <div className='ps-16 pb-10'><div className=' bg-gradient-to-r from-indigo-400 to-indigo-500 h-2 w-20 shadow-indigo-500/50 shadow-md '></div></div>
+            <div className=' flex justify-center  px-4 sm:px-4 md:px-6'>
                 <div className=' gap-4 w-full sm:w-full  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 md:m-5'>
 
                     {

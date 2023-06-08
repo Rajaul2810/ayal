@@ -26,5 +26,8 @@ body {
     rgb(var(--background-start-rgb));
 }
 .bg{
-  background-image: url(../../public/bg2.jpg);
+  background-image: url(../../public/mapbg.svg);
+}
+.bg_about{
+  background-image: url(../../public/about.jpg);
 }

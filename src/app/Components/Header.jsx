@@ -5,13 +5,14 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <section className=' h-screen w-full'>
-            <div className=" grid place-content-center bg-cover bg-center bg h-full bg-opacity-10" >
-                <div className=' -pt-60 p-5'>
-                    <h1 className=' text-green-600 text-7xl font-extrabold'>AyAl Corp Limited</h1>
-                    <p className=' pt-5 pb-5 '>is the One-stop solution for your Technology, Security, Mailing and Digital marketing needs.</p>
+        <section className=' w-full bg-indigo-600 pt-5 pb-5'>
+            <div >
+                <div className=' p-5 md:ps-40'>
+                    <h1 className=' text-white text-6xl font-extrabold '>WE <span ><br /> HELP </span> <br /> YOU</h1><hr className=' w-1/4 pb-8' />
+                    <h1 className=' text-pink-600 text-6xl font-extrabold font-serif'><span >TO</span> GROW </h1><hr className=' w-1/4 pb-8' />
+                    <h1 className=' text-white text-6xl font-extrabold pb-10'><span >YOUR <br /></span> BUSINESS</h1>
                     <Link href='/contact'>
-                        <button className=' bg-gradient-to-r from-green-600 to-lime-400 border-none py-3 px-4 w-40  rounded-3xl shadow-green-500/50 shadow-lg text-white font-bold transform hover:scale-105 duration-150'>Contact</button>
+                        <button className=' bg-yellow-300 border-none shadow-yellow-500/50 shadow-lg py-3 px-4 w-40  rounded-3xl text-black font-bold transform hover:scale-105 duration-150 cursor-pointer animate-pulse'>CONTACT</button>
 
                     </Link>
 

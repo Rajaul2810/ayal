@@ -3,6 +3,7 @@ import Services from './services/page'
 import WhyUs from './whyUs/page'
 import Contact from './contact/page'
 import Counter from '@/app/Components/Counter'
+import About from './about/page'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <Services />
     <WhyUs />
     <Counter />
+    <About/>
     <Contact />
     </>
   )
