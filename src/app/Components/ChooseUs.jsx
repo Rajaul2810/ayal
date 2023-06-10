@@ -11,7 +11,7 @@ const ChooseUs = () => {
                 <h1 className=' text-white font-extrabold text-6xl ps-16'>WHY <br />CHOOSE US</h1>
                 <div className='ps-16 pb-10'><div className=' bg-gradient-to-r from-indigo-600 to-indigo-500 h-2 w-20 shadow-indigo-500/50 shadow-md '></div></div>
                 <div className=' flex justify-center  px-4 sm:px-4 md:px-12 '>
-                    <div className=' gap-5 w-full  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4'>
+                    <div className=' gap-5 w-full  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4'>
                         <div className='flex justify-center items-center gap-4   shadow-md bg-white rounded-md p-5 transform hover:-translate-x-4 duration-500'>
                             <p className=' rounded-full bg-indigo-500 p-3 shadow-indigo-500/50 shadow-lg'><AiOutlineSafety size={40} color='white' /></p>
                             <div>

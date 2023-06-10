@@ -30,7 +30,7 @@ export const Navbar = () => {
                         </div>
 
                         {/* mobile */}
-                        <div className='ms-10 flex justify-evenly items-center md:hidden'>
+                        <div className='ms-10 flex justify-evenly items-center md:hidden pt-2 pb-2'>
                             <button onClick={() => setIsOpen(!isOpen)} aria-controls='mobile-menu' aria-expanded='false' className=' text-black p-2'>
                                 {!isOpen ? (
                                     <BsMenuButtonWideFill size={20} />

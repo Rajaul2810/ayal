@@ -11,7 +11,7 @@ const Counter = () => {
                 <h1 className=' text-white font-extrabold text-6xl ps-16'>FUN <br /> FACTS</h1>
                 <div className='ps-16 pb-10'><div className=' bg-gradient-to-r from-indigo-600 to-indigo-500 h-2 w-20 shadow-indigo-500/50 shadow-md '></div></div>
                 <div className=' flex justify-center  px-4 sm:px-4 md:px-12'>
-                    <div className=' gap-5 w-full md:w-3/4  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4'>
+                    <div className=' gap-5 w-full md:w-3/4  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4  sm:h-56'>
                         <div className='flex justify-center items-center gap-4 '>
                             <div>
                                 {
