@@ -4,7 +4,7 @@ import about from '../../../public/about.jpg'
 
 const About = () => {
     return (
-        <div className=' bg_about bg-cover bg-fixed'>
+        <div className=' bg_about bg-cover bg-center bg-fixed'>
             <div className='bg-indigo-500 bg-opacity-60 pt-12 pb-12'>
                 <h1 className='ps-4 md:ps-16 text-6xl font-extrabold text-white'>OUR <br /> STORY</h1>
                 <div className='ps-4 md:ps-16 pb-10'><div className=' bg-gradient-to-r from-indigo-400 to-indigo-300 h-2 w-20 shadow-indigo-500/50 shadow-md '></div></div>

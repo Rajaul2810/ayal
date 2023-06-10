@@ -15,7 +15,7 @@ const Counter = () => {
                         <div className='flex justify-center items-center gap-4 '>
                             <div>
                                 {
-                                    counterOn && <p className=' text-center text-6xl text-indigo-600 font-extrabold '><CountUp duration={5} end={89} />+</p>
+                                    counterOn && <p className=' text-center text-6xl text-indigo-600 font-extrabold '><CountUp duration={5} end={100} />+</p>
                                 }
                                 <p className='text-center text-white font-bold text-md'>Happy Client</p>
                             </div>

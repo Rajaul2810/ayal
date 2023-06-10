@@ -5,10 +5,17 @@ import services2 from '../../../public/services2.png'
 import services3 from '../../../public/services3.png'
 import services4 from '../../../public/services4.png'
 import services5 from '../../../public/services5.png'
+import services6 from '../../../public/services6.png'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 
 const services = [
+    {
+        id: 1,
+        name: 'Web Design & Development',
+        description: 'AyAl Corp Ltd. is a leading Web design and development company. We provide flexible, and affordable web design and development services for our global clients. We offer top-notch web design services and solutions for eCommerce, Mobile, Web app and more. With decades of experience in web design and development, we can help you with custom web design and development services.',
+        icon: services3
+    },
     {
         id: 1,
         name: 'Business Email & Hosting Solutions',
@@ -22,34 +29,22 @@ const services = [
         icon: services2
     },
     {
-        id: 3,
-        name: 'Web Design & Development',
-        description: 'AyAl Corp Ltd. is a leading Web design and development company. We provide flexible, and affordable web design and development services for our global clients. We offer top-notch web design services and solutions for eCommerce, Mobile, Web app and more. With decades of experience in web design and development, we can help you with custom web design and development services.',
-        icon: services3
-    },
-    {
         id: 4,
-        name: 'Cloud Storage',
-        description: 'Access your data from nearly anywhere in the world using Cloud Storage, a secure and easy way to store, access, and protect your data via our high-speed network.',
-        icon: services4
-    },
-    {
-        id: 5,
-        name: 'Social Media Management',
+        name: 'Contact Center Services',
         description: 'Social Media has changed the way we interact & do business while creating a new avenue to grow our earning exponentially.',
         icon: services5
     },
     {
-        id: 6,
-        name: 'Content Writing',
+        id: 5,
+        name: 'Graphics Design & Video Editing',
         description: 'A content writer can improve website engagement and motivate visitors.',
-        icon: services2
+        icon: services4
     },
     {
-        id: 7,
-        name: 'Graphic Design',
+        id: 6,
+        name: 'Microsoft 365 Business Solutions',
         description: 'We can convey ideas creatively through texts & images.',
-        icon: services1
+        icon: services6
     },
 
 ]
@@ -65,13 +60,13 @@ const Services = () => {
                     {
                         services.map(service =>
                             <motion.div animate='show'
-                                transition={{ ease: "easeOut", duration: 2 }} className=' flex justify-center shadow-gray-300/30 shadow-lg ' key={service.id}>
-                                <div className='items-center p-3  rounded-lg bg-white hover:shadow-lg transform hover:scale-105 duration-500'>
+                                transition={{ ease: "easeOut", duration: 2 }} className=' flex justify-center shadow-gray-300/30 bg-white shadow-lg rounded-lg  hover:shadow-lg transform hover:scale-105 duration-500 ' key={service.id}>
+                                <div className='items-center p-3  '>
                                     <div className=' flex justify-center'>
                                         <Image src={service.icon} alt='service' height={150} />
                                     </div>
-                                    <h1 className=' font-bold pt-5 text-xl text-center'>{service.name}</h1>
-                                    <p className=' text-gray-500 text-sm pt-2 pb-2 p-2 text-justify'>{service.description}</p>
+                                    <h1 className=' font-bold pt-5 text-lg text-gray-500 text-center'>{service.name}</h1>
+                                    {/* <p className=' text-gray-500 text-sm pt-2 pb-2 p-2 text-justify'>{service.description}</p> */}
                                 </div>
                             </motion.div>
                         )
